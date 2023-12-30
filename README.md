@@ -1,7 +1,7 @@
 # Media-campaign-cost-data-analysis
 Median campaign cost data from Kaggle gives information about the cost of media campaigns in the food marts in the United States on the basis of the features provided. The full description of the dataset could be found [here](https://www.kaggle.com/datasets/gauravduttakiit/media-campaign-cost-prediction).<br>
 ## Build with
-SQL, tableau and python/R will be used for exploratory data analysis. Vertex AI on google cloud platform will be used for training custom model.
+SQL, tableau and python/R will be used for exploratory data analysis. Vertex AI on google cloud platform will be used for training custom model, deploying the model and making online prediction.
 ## Data
 [Dataset for training and validating the model](https://github.com/Ruiqi-Alaina/Media-campaign-cost-data-analysis/blob/main/train.csv)
 ## Roadmap
@@ -19,6 +19,6 @@ Hyperparameter tuning job was implemented to find the optimized hyperparameters 
 * [catboost model hyperparameter tuning job on Vertex AI](https://github.com/Ruiqi-Alaina/Media-campaign-cost-data-analysis/blob/main/catboost.ipynb)
 * [catboost model training python script](https://github.com/Ruiqi-Alaina/Media-campaign-cost-data-analysis/blob/main/cattrain.py)
 ### Ensemble model with voting regressor
-Use the hyperparameter we found above to build model. 
+Use the hyperparameter we found above to build model. Deploy the model and make onine prediction
 * [Custom training job on Vertex AI]()
 * [ensemble model with voting regressor training python script](https://github.com/Ruiqi-Alaina/Media-campaign-cost-data-analysis/blob/main/ensemble.py)
