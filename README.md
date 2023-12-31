@@ -20,5 +20,5 @@ Hyperparameter tuning job was implemented to find the optimized hyperparameters 
 * [catboost model training python script](https://github.com/Ruiqi-Alaina/Media-campaign-cost-data-analysis/blob/main/cattrain.py)
 ### Ensemble model with voting regressor
 Use the hyperparameter we found above to build model. Deploy the model and make onine prediction
-* [Custom training job on Vertex AI]()
+* [Custom training job on Vertex AI](https://github.com/Ruiqi-Alaina/Media-campaign-cost-data-analysis/blob/main/ensemble%20model.ipynb)
 * [ensemble model with voting regressor training python script](https://github.com/Ruiqi-Alaina/Media-campaign-cost-data-analysis/blob/main/ensemble.py)
